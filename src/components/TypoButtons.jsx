@@ -41,6 +41,8 @@ const TypoButtons = () => {
             flexDirection: "column",
             // justifyContent: "center",
             // alignItems: "center",
+            gap:2,
+            mt:5
           }}
         >
           <Button variant="contained" color="secondary">
