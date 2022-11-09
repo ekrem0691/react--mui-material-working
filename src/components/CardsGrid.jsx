@@ -1,16 +1,16 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
 import {
   Button,
   CardActionArea,
   CardActions,
   Grid,
   Container,
-} from '@mui/material';
-import data from '../data';
+} from "@mui/material";
+import data from "../data";
 
 export default function CardsGrid() {
   return (

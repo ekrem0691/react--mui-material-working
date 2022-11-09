@@ -1,4 +1,6 @@
 import TypoButtons from "../components/TypoButtons";
+import TextFieldComponent from "../components/TextFieldComp"
+import CardsGrid from "../components/CardsGrid";
 
 
 const Home = () => {
@@ -7,7 +9,9 @@ const Home = () => {
   return (
     <>
      <h1>Home</h1>
-     <TypoButtons/>
+     {/* <TypoButtons/> */}
+     {/* <TextFieldComponent/> */}
+     <CardsGrid/>
     </>
   );
 };
