@@ -11,7 +11,8 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const Navbar = () => {
+
+const AppBarComp = () => {
   const pages = ['Products', 'Pricing', 'Blog'];
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -116,4 +117,4 @@ const Navbar = () => {
     </AppBar>
   );
 };
-export default Navbar;
+export default AppBarComp;
